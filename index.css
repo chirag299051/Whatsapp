@@ -1,0 +1,48 @@
+.html{
+	position: relative;
+	min-height: 100%;
+}
+
+.col-lg-4 {
+	width: 100%;
+	overflow-y: scroll;
+}  
+
+.userPanel {
+	background:#e1e1e1; text-align:center; padding:10px;
+}
+
+.userPanel img {
+	border-radius: 50%; height: 90px; text-align: center; solid #f1f1f1; padding: 5px;
+}
+
+.userPanel .userDetail span {
+	color: black; font-size: 20px;
+}
+
+.nav {
+	text-align: right;
+}
+
+.col-lg-8 {
+	width: 100%;
+	background-color: rgb(200,200,200);
+}
+
+.card {
+	margin: 10%;
+}
+
+.col .bottom {
+	display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+}
